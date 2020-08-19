@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+
+.top-banner img,
+.main-banner img,
+.main-banner .banner-logo img {
+  width: 100%;
+  display: block;
+}
+
+.main-banner .banner-logo img {
+  max-width: 40%;
+}
+.main-banner {
+  position: relative;
+}
+
+.main-banner .banner-logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+h1.title {
+  background-color: #33b133;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem;
+  margin: 0;
+  font-size: 2.1rem;
+  position: relative;
+  z-index: 1;
+}
+h1.title:after,
+h1.title:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+h1.title:after {
+  border-top-color: #33b133;
+  border-width: 1rem;
+  margin-left: -1rem;
+}
+h1.title:before {
+  border-width: 1.6rem;
+  margin-left: -1.6rem;
+}
+
+ul.menu {
+  background-color: #fd9404;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul.menu li:not(:last-child) {
+  border-bottom: 0.1rem solid #feeab2;
+}
+
+ul.menu li a {
+  border-bottom: #feeab2;
+  padding: 1.5rem 1.5rem;
+  display: block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul.menu li a img {
+  width: 100%;
+  display: block;
+}
